@@ -1,0 +1,247 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+\usepackage{multicol}
+\usepackage{setspace}
+\usepackage{float}
+\usepackage{hyperref}
+
+\DeclareMathOperator{\sech}{sech}
+\DeclareMathOperator{\csch}{csch}
+
+\title{Mathematical Formulae and Identities}
+\author{Rutuj Gavankar \\ \email}
+\newcommand{\email}{
+	\centering \href{mailto:rsgavank@iu.edu}{rsgavank.edu}}
+\newcommand{\diff}[1]{\frac{\mathrm{d}}{\mathrm{d}#1}}
+\newcommand{\der}[1]{\, \mathrm{d}#1}
+
+
+\newtheorem{theorem}{Theorem}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Preliminary Algebra}
+
+\subsection{Coordinate Geometry}
+Equation of a line:
+$$y = mx + c$$
+Equation of a circle:
+$${(x-h)}^2 + {(y-k)}^2 = r^2$$
+Equation of a parabola:
+\begin{align*}
+y - k &= a{(x-h)}^2 & x-h = a{(y-k)^2} \\
+\end{align*}
+Equation of an ellipse:
+\begin{align*}
+\frac{{(x-h)}^2}{a^2} + \frac{{(y-k)}^2}{b^2} = 1 
+\end{align*}
+Equation of a hyperbola:
+\begin{align*}
+\frac{{(x-h)}^2}{a^2} - \frac{{(y-k)}^2}{b^2} = 1 
+\end{align*}
+
+\subsection{Binomial Expansion}
+$$^nC_k = \frac{n!}{k!(n-k)!} = {n\choose k} $$
+Also,
+\begin{align*}
+	{^nC_0} &= {^nC_n} = 1 \\
+	{^nC_1} &= {^nC_{n-1}} = n \\
+	{^nC_k} &= {^nC_{n-k}}
+\end{align*}
+For a binomial expression raised to the power \emph{n}:
+$${(x+y)}^n  = \sum_{k=0}^{k=n} {^nC_k} x^{n-k}y^k$$
+
+\section{Trigonometry}
+
+\subsection{Common Values \& the Unit Circle}
+\begin{table}[h]
+	\centering
+	\renewcommand{\arraystretch}{1.5}
+	\begin{tabular}{cccccc}
+		\toprule
+		$\theta ^ \circ$ & $0^ \circ$ & $30^ \circ$ & $45^ \circ$ & $60^ \circ$ & $90^ \circ$ \\ \midrule
+		$\theta ^ c$ & $0$ & $\frac{\pi}{6}$ & $\frac{\pi}{4}$ & $\frac{\pi}{3}$ & $\frac{\pi}{2}$ \\ \midrule
+		$\sin \theta$ & $0$ & $\frac{1}{2}$ & $\frac{1}{\sqrt{2}}$ & $\frac{\sqrt{3}}{2}$ & $1$ \\
+		$\cos \theta$ & $1$ & $\frac{\sqrt{3}}{2}$ & $\frac{1}{\sqrt{2}}$ & $\frac{1}{2}$ & $0$ \\
+		$\tan \theta$ & 0 & $\frac{1}{\sqrt{3}}$ & $1$ & $\sqrt{3}$ & N/D \\ \bottomrule
+	\end{tabular}
+	\caption{\label{standardvals}Commonly used trigonometric values. Refer the \hyperref[unitcircle]{Unit Circle}}
+\end{table}
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.8]{Unit_circle_angles.pdf}
+	\caption{\label{unitcircle} Unit Circle}
+\end{figure}
+
+\subsection{Pythagorean Identities}
+
+\begin{align*}
+	\sin^2x + \cos^2x &= 1 &  \sec^2 x - \tan^2x &= 1 \\
+	 \csc^2 x - \cot^2 x &= 1
+\end{align*}
+
+\subsection{Double Angle Formulae}
+\begin{align*}
+\sin{(2x)} &= 2\sin x\cos x & \tan{(2x)} &= \frac{2\tan x}{1 - \tan^2x} \\
+\cos{(2x)} &= 2\cos^2x - 1 \\
+&= \cos^2x - \sin^2x \\ &= 1 - 2\sin^2x
+\end{align*}
+
+
+
+
+\subsection{Sum and Difference Formulae}
+\begin{align*}
+\sin{(x \pm y)} &= \sin x\cos y \pm \cos x\sin y &
+\cos{(x \pm y)} &= \cos x \cos y \mp \sin x \sin y \\
+\tan{(x \pm y)} &= \frac{\tan x \pm \tan y}{1 \mp \tan x \tan y}
+\end{align*}
+\begin{align*}
+\arcsin x \pm \arcsin y &= \arcsin{(x\sqrt{1 - y^2}\pm y\sqrt{1 - x^2})} \\ \arccos x \pm \arccos y &= \arccos{(xy \mp \sqrt{(1-x^2)(1-y^2)})} \\
+\arctan x \pm \arctan y &= \arctan{(\frac{x\pm y}{1 \mp xy})}
+\end{align*}
+
+\subsection{Sum to Product Formulae}
+\subsection{Product to Sum Formulae}
+\subsection{Inverse Trigonometric Functions}
+\begin{align*}
+	&\sin^{-1}(-x) =-\sin^{-1}x &   &\cos^{-1}(-x) =\pi-\cos^{-1}x, & &\lvert x\rvert\leq 1 \\
+	&\tan^{-1}(-x) =-\tan^{-1}x &   &\cot^{-1}(-x) =\pi-\cot^{-1}x,& &x\in\mathbf{R} \\ 
+	&\csc^{-1}x =\sin^{-1}\left(\frac{1}{x}\right) & &\sec^{-1}x =\cos^{-1}\left(\frac{1}{x}\right),& &\lvert x\rvert\geq1 \\ &\cot^{-1}x =\tan^{-1}\left(\frac{1}{x}\right),& & & &x>0 \\ 
+	&\cot^{-1}x =\pi+\tan^{-1}\left(\frac{1}{x}\right),& & & &x<0 \\ 
+	&\sin^{-1}x+\cos^{-1}x =\frac{\pi}{2},& & &  &\lvert x\rvert\leq1 \\ 
+	&\csc^{-1}x+\sec^{-1}x =\frac{\pi}{2},& & & &\lvert x\rvert\geq1 
+\end{align*}
+
+
+
+\subsection{Complex Numbers}
+Euler's Formula:
+$$re^{i\theta} = r(\cos\theta + i\sin\theta)$$
+De Moivre's Formula:
+$${(\cos\theta + i\sin\theta)}^n = \cos{(n\theta)} + i\sin{(n\theta)}$$
+Exponential Definition of Trigonometric Functions:
+\begin{align*}
+\cos{(ix)} &= \frac{(e^x + e^{-x})}{2} & \sin{(ix)} &= i\frac{(e^x - e^{-x})}{2} & \tan{(ix)} &= i\frac{(e^x - e^{-x})}{(e^x + e^{-x})}
+\end{align*}
+Exponential Definition of Hyperbolic Functions:
+\begin{align*}
+\cosh{(x)} &= \frac{(e^x + e^{-x})}{2} & \sinh{(x)} &= \frac{(e^x - e^{-x})}{2} & \tanh{(x)} &= \frac{(e^x - e^{-x})}{(e^x + e^{-x})}
+\end{align*}
+Relationship between hyperbolic and trigonometric functions:
+\begin{align*}
+\cosh x &= \cos{ix} & \cos x = \cosh{ix} \\
+i\sinh x &= \sin{ix} & i\sin{x} = \sinh{ix} 
+\end{align*}
+
+\subsection{Hyperbolic Identities}
+\begin{align*}
+&\cosh^2 x - \sinh^2 x = 1 & &\sech^2x + \tanh^2x = 1 & &\csch^2x + \coth = 1\\
+&\sinh{(2x)} = 2\sinh x\cosh x & &\cosh{(2x)} = \cosh^2x + \sinh^2{x} & &\sinh x + \cosh x = e^x \\
+\end{align*}
+
+\subsection{Inverse Hyperbolic Functions}
+\begin{align*}
+\cosh^{-1}x &= \ln{(\sqrt{1 + x^2} + x)} & \sinh^{-1}x &= \ln{(\sqrt{1 + x^2} + x)} \\
+\tanh^{-1}x &= \ln{\sqrt{\frac{1 + x}{1 - x}}} \\
+&= \frac{1}{2}\ln{\frac{1+x}{1-x}}
+\end{align*}
+
+\section{Vector Algebra}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{vector_add.pdf}
+	\caption{\label{vector_add} Addition of two vectors using Parallelogram Law}
+\end{figure}
+\subsection{Scalar Product}
+
+\begin{align*}
+a \cdot b &= \lvert a \rvert \lvert b \rvert \cos\theta \\
+&= \langle a |b \rangle
+\end{align*}
+
+If $a = x_1 \hat{\imath} + y_1 \hat{\jmath} + z_1 \hat{k}$ and $b = x_2 \hat{\imath} + y_2 \hat{\jmath} + z_2 \hat{k}$ then, 	 
+$$a \cdot b = (x_1 x_2)\hat{\imath} + (y_1 y_2)\hat{\jmath} + (z_1 z_2)\hat{k}$$
+
+If $a \cdot b = 0$ then, $ a \perp b$
+
+\subsection{Vector Product}
+\begin{align*}
+a\times b &= \lvert a \rvert \lvert b \rvert \sin\theta \\
+&=|b\rangle \langle a|
+\end{align*}
+
+If $a = x_1 \hat{\imath} + y_1 \hat{\jmath} + z_1 \hat{k}$ and $b = x_2 \hat{\imath} + y_2 \hat{\jmath} + z_2 \hat{k}$ then,
+$$
+a \times b =  
+\begin{vmatrix}
+\hat{\imath} & \hat{\jmath} & \hat{k} \\
+x_1 & y_1 & z_1 \\
+x_2 & y_2 & z_2 \\
+\end{vmatrix}
+$$
+
+\subsection{Equations of lines, planes and spheres}
+
+Equation of a line:
+In Fig.\ref{eqnline}, the vector {\bfseries r} can be written as $\mathbf{r} = \mathbf{a + \lambda b}$
+\begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.75]{line}
+	\caption{\label{eqnline} The equation of a line. The vector b is in the direction \emph{AR} and $\mathcal{\lambda}$b is the vector from \emph{A} to \emph{R}.}
+\end{figure}
+
+\section{Limits}
+
+
+\section{Differential Calculus}
+
+\subsection{Derivative Rules and Properties}
+\begin{align*}
+&\diff{x}
+\end{align*}
+
+
+\subsection{Common Derivatives}
+\begin{align*}
+&\diff{x}a^x = (\ln a)a^x & &\diff{x}\log_a x = \frac{1}{x\ln a} \\
+&\diff{x}\sin x = \cos x & &\diff{x}\cos x = -\sin x & &\diff{x}\tan x = \sec^2 x\\
+&\diff{x}\csc x = -\csc x \cot x & &\diff{x}\sec x = \sec x \tan x & &\diff{x}\cot x = -\csc^2 x \\
+&\diff{x}\sin^{-1}x = \frac{1}{\sqrt{1 - x^2}} & &\diff{x}\cos^{-1}x = - \frac{1}{\sqrt{1 - x^2}} & &\diff{x}\tan^{-1}x = \frac{1}{1 + x^2} \\
+&\diff{x}\sec^{-1}x = \frac{1}{ x \sqrt{x^2 - 1}} &  &\diff{x}\csc^{-1}x = -\frac{1}{ x \sqrt{x^2 - 1}} & &\diff{x}\cot^{-1}x = -\frac{1}{1 + x^2} \\
+\end{align*}
+
+
+
+\section{Integral Calculus}
+\subsection{Fundamental Theorem of Calculus}
+\begin{theorem}[First Fundamental Theorem of Calculus]
+	\label{ftc}
+	If $f$ is continuous on $[a,b]$, then the function defined by
+	$$S(x)=\int _{ a }^{ x }{ f(t)\, dt }$$
+	is continuous on $[a,b]$ and differentiable on $(a,b)$, and $S'(x)=f(x)$.
+\end{theorem}
+Written in Leibniz notation,
+$$\diff{x}\int_{a}^{x} f(t)\, dt = f(x)$$
+
+\begin{theorem}[Second Fundamental Theorem of Calculus]
+	If $f$ is a continuous function on $[a,b]$, then	
+	$$\int _{ a }^{ b }{ f(x)\, dx=F(b)-F(a)}$$
+	where $F$ is the anti-derivative of $f$, i.e. $F'=f$.
+\end{theorem}
+\subsection{Common Antiderivatives}
+\begin{align*}
+&\int\frac{1}{x}\der{x} = \ln|x| + c & &\int{\frac{1}{ax + b}\der{x}} = \frac{1}{a}\ln|ax+b| + c \\
+&\int \cos a \der{x}= \frac1a \sin ax + c & &\int \sin ax\der{x}= - \frac1a \cos ax + c \\
+&
+\end{align*}
+
+
+
+\end{document}
