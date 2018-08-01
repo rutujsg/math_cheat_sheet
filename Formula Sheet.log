@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.20)  1 AUG 2018 16:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.20)  1 AUG 2018 18:21
 entering extended mode
 **"./Formula Sheet.tex"
 ("Formula Sheet.tex"
@@ -431,9 +431,6 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 50.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 <Unit_circle_angles.pdf, id=139, pagebox=cropbox, 542.025pt x 542.025pt>
 File: Unit_circle_angles.pdf Graphic file (type pdf)
 <use Unit_circle_angles.pdf>
@@ -441,9 +438,6 @@ Package pdftex.def Info: Unit_circle_angles.pdf  used on input line 78. on inpu
 t line 78.
 Package pdftex.def Info: Requested size: 433.62057pt x 433.62057pt on input lin
 e 78.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [2] [3] [4]
 
 pdfTeX warning: pdflatex.exe (file ./vector_add.pdf): PDF inclusion: found PDF 
@@ -462,15 +456,12 @@ File: line.png Graphic file (type png)
 Package pdftex.def Info: line.png  used on input line 196. on input line 196.
 Package pdftex.def Info: Requested size: 201.56505pt x 169.38239pt on input lin
 e 196.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[6]
+ [6 <./line.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
- [7] [8 <./Unit_circle_angles.pdf>] [9 <./line.png>]
+ [7] [8 <./Unit_circle_angles.pdf>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
- ("Formula Sheet.aux")
+
+("Formula Sheet.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
 Package rerunfilecheck Info: File `"Formula Sheet".out' has not changed.
@@ -479,12 +470,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
  ) 
 Here is how much of TeX's memory you used:
  6421 strings out of 493312
- 93415 string characters out of 3138870
- 199715 words of memory out of 3000000
- 9866 multiletter control sequences out of 15000+200000
+ 93418 string characters out of 3138870
+ 200715 words of memory out of 3000000
+ 9867 multiletter control sequences out of 15000+200000
  10901 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,10n,32p,274b,338s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,10n,32p,274b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
@@ -494,9 +485,9 @@ nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 msfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Formula Sheet.pdf" (9 pages, 234358 bytes).
+Output written on "Formula Sheet.pdf" (8 pages, 233624 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
+ 236 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
  216 words of extra memory for PDF output out of 10000 (max. 10000000)
 
