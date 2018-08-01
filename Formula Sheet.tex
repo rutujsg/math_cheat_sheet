@@ -14,15 +14,20 @@
 
 \title{Mathematical Formulae and Identities}
 \author{Rutuj Gavankar \\ \email}
-\newcommand{\email}{
-	\centering \href{mailto:rsgavank@iu.edu}{rsgavank.edu}}
+
+
+\newcommand{\email}{\centering \href{mailto:rsgavank@iu.edu}{rsgavank.edu}}
 \newcommand{\diff}[1]{\frac{\mathrm{d}}{\mathrm{d}#1}}
 \newcommand{\der}[1]{\, \mathrm{d}#1}
 
 
 \newtheorem{thrm}{Theorem}
 \newtheorem{defn}{Definition}
+
+
 \begin{document}
+	
+	
 \maketitle
 \tableofcontents
 \newpage
@@ -46,6 +51,25 @@ Equation of a hyperbola:
 \begin{align*}
 \frac{{(x-h)}^2}{a^2} - \frac{{(y-k)}^2}{b^2} = 1 
 \end{align*}
+
+
+\subsection{Logarithms and Exponentials}
+Properties of Exponentials
+\begin{align*} 
+		&a^n a^m = a^{n+m} & &\frac{a^n}{a^m}   = a^{n-m}\\
+		&(a b)^n = a^n  b^n & &\left({\frac{a}{b}}\right)^n  = \frac{a^n}{b^n}\\
+		&(a^n)^m = a^{n m} & &\left({\frac{a}{b}}\right)^{-n} = {\frac{b}{a}}^{n}\\
+\end{align*}
+Properties of Logarithms
+
+
+\begin{align*}
+&\log_aa  = 1 &   &\log_a1 = 0 \\  
+&(\log_ab)(\log_bc) = \log_ac & &\log_ab = \frac{1}{\log_ba} \\ 
+&\log_a(xy) = \log_ax + \log_ay &
+&\log_a\left(\frac{x}{y}\right) = \log_ax - \log_ay
+\end{align*}
+
 
 \subsection{Binomial Expansion}
 $$^nC_k = \frac{n!}{k!(n-k)!} = {n\choose k} $$
@@ -233,16 +257,68 @@ In Fig.\ref{eqnline}, the vector {\bfseries r} can be written as $\mathbf{r} = \
 \end{figure}
 
 \section{Limits}
+\subsection{Precise Definition of a Limit}
+\begin{defn}[Limit of a function]
+	Let $f(x)$ be a function defined on an open interval around $x_0$. We say that the limit of $f(x)$ as $x$ approaches $x_0$ is $L$, i.e.
+	$\lim _{ x \to x_{0} }{f(x) } = L,$	if for every $\varepsilon > 0 $ there exists $\delta >0$ such that for all $x$
+	$$0 < \left| x - x_{0} \right |<\delta \textrm{ } \Rightarrow \textrm{ } \left |f(x) - L \right| < \varepsilon.$$
+\end{defn}
+\subsection{Common Limits}
+\begin{align*}
+&\lim_{x \to \infty}{\left(1 + \frac{k}{x}\right)}^{mx} = e^{mk} & &\lim_{x \to \infty}{\left(1 + \frac{1}{x}\right)}^{x} = e & &\lim_{x \to \infty}{\left(1 - \frac{1}{x}\right)}^{x} = \frac{1}{e}\\
+&\lim_{x \to \infty}{\left(\frac{x}{x+k}\right)}^{x} = \frac{1}{e^k} & &\lim_{x \to 0}{\left(1 + x\right)}^{\frac{1}{x}} = e & &\lim_{x \to 0}{\left(\frac{a^x - 1}{x}\right)} = \ln a \\ 
+&\lim_{x \to 0}{\frac{\sin x}{x}} = 1 & &\lim_{x \to 0}{\frac{\sin{ax}}{bx}} = \frac{a}{b} & &\lim_{x \to 0}{\frac{1 - \cos x}{x}} = 0 \\
+\end{align*}
+
+\subsection{L'H\^{o}pital's Rule}
+\begin{thrm}[L'H\^{o}pital's Rule]
+	Suppose $f$ and $g$ are differentiable functions such that
+\begin{enumerate}
+	\item $g'(x) \neq 0$ on an open interval  $I$ containing $a;$
+	\item $\lim_{x\to a} f(x) = 0$ and $\lim_{x\to a} g(x) = 0,$ or $\lim_{x\to a} f(x) = \pm \infty$ and $\lim_{x\to a} g(x) = \pm \infty;$
+	\item $\lim_{x\to a} \frac{f'(x)}{g'(x)}$ exists.
+\end{enumerate}
+	Then
+	$$\lim_{x\to a} \frac{f(x)}{g(x)} = \lim_{x\to a} \frac{f'(x)}{g'(x)}.$$
+\end{thrm}
+
+
+\section{Sequences and Series}
+\subsection{Common Summation Formulae}
+\begin{align*}
+\sum_{i = 1}^{n} i &= \frac{n(n+1)}{2} & \sum_{i = 1}^{n} i^2 &= \frac{n(n+1)(2n+1)}{6} \\
+\sum_{i = 1}^{n}i^3 &= \frac{n^2(n+1)^2}{4} & \sum_{i = 1}^{n}r^i &= \frac{1-r^{n+1}}{1-r}
+\end{align*}
+\subsection{Geometric Series}
+The Geometric Series
+$$S = \sum_{n=0}^{\infty}{ar^{n}} = a + ar + ar^2 + ar^3\dots 
+$$
+Is convergent if $|r|< 1$ and,
+$$S = \frac{a}{1-r}$$
+\subsection{Power-Series}
+$$\zeta(p) = \sum_{n = 1}^{\infty} \frac{1}{n^p}$$
+converges for $p>1$
+\subsection{Series Convergence Tests}
+\subsection{Common Convergent Series}
+
+
+
 
 
 \section{Differential Calculus}
 
 \subsection{Derivative Rules and Properties}
+The differntial operator is a linear operator
 \begin{align*}
-&\diff{x}
+&{(f(x) \pm g(x))}' = f'(x) \pm g'(x) & &{(c\cdot f(x)}' = c\cdot f'(x)
 \end{align*}
-
-
+Product Rule:
+$$(f(x)\cdot g(x))' = f'(x)\cdot g(x) + f(x)\cdot g'(x)$$
+Quotient Rule:
+$$\left(\frac{f(x)}{g(x)}\right)' = \frac{f'(x)\cdot g(x) - g'(x)\cdot f(x)}{(g(x))^2}$$
+Chain Rule:
+$$ (f(g(x)))' = f'(g(x))\cdot g'(x)
+$$
 \subsection{Common Derivatives}
 \begin{align*}
 &\diff{x}a^x = (\ln a)a^x & &\diff{x}\log_a x = \frac{1}{x\ln a} \\
@@ -259,12 +335,15 @@ For a straight line passing through points $\mathrm{(x_1,y_1)}$ and  $\mathrm{(x
 $$m = \tan\theta = \frac{y_2 - y_1}{x_2 - x_1}$$
 Where $\theta$ is the angle of the line with the x-axis
 
-\subsection{Taylor Polynomials Expansions}
+\subsubsection{Taylor Polynomials}
 \begin{defn}[Taylor Polynomial]
+\label{taylorpoly}
 Let $f(x)$ be a real-valued function that is infinitely differentiable at $x = x_0$. The Taylor series expansion for the function $f(x)$ centered around the point $x = x_0$ is given by
 $$\sum_{n=0}^{\infty}f^{(n)}(x_0)\frac{(x - x_0)^{n}}{n!}$$
 Where $f^{(n)}(x_0)$ is the $n^\text{th}$ derivative of $f(x)$ at $x = x_0$.
 \end{defn}
+
+
 
 \section{Integral Calculus}
 \subsection{Fundamental Theorem of Calculus}
@@ -288,6 +367,8 @@ $$\diff{x}\int_{a}^{x} f(t)\, dt = f(x)$$
 &\int \cos a \der{x}= \frac1a \sin ax + c & &\int \sin ax\der{x}= - \frac1a \cos ax + c \\
 &
 \end{align*}
+
+
 
 
 
