@@ -6,6 +6,7 @@
 \usepackage{multicol}
 \usepackage{setspace}
 \usepackage{float}
+\usepackage{array}
 \usepackage{hyperref}
 
 \DeclareMathOperator{\sech}{sech}
@@ -19,8 +20,8 @@
 \newcommand{\der}[1]{\, \mathrm{d}#1}
 
 
-\newtheorem{theorem}{Theorem}
-
+\newtheorem{thrm}{Theorem}
+\newtheorem{defn}{Definition}
 \begin{document}
 \maketitle
 \tableofcontents
@@ -56,10 +57,44 @@ Also,
 \end{align*}
 For a binomial expression raised to the power \emph{n}:
 $${(x+y)}^n  = \sum_{k=0}^{k=n} {^nC_k} x^{n-k}y^k$$
+Pascal's Triangle \\
+\begin{center}
+	~
+\vbox{\offinterlineskip 
+	\halign to 3.2in{\quad\hfil#\hfil\cr
+		1 \cr\noalign{\vskip 1 mm}
+		1\hskip5.010mm 1 \cr\noalign{\vskip 1 mm}
+		1\hskip5.015mm 2\hskip5.015mm 1 \cr\noalign{\vskip 1 mm}
+		1\hskip5.025mm 3\hskip5.025mm 3\hskip5.025mm 1 \cr\noalign{\vskip 1 mm}
+		1\hskip5.05mm 4\hskip5.05mm 6\hskip5.05mm 4\hskip5.05mm 1 \cr\noalign{\vskip 1.5 mm}
+		1\hskip5mm 5\hskip5mm 10\hskip5mm 10\hskip5mm 5\hskip5mm 1 \cr\noalign{\vskip 1.5 mm}
+		1\hskip4.90mm 6\hskip4.90mm 15\hskip4.90mm 20\hskip4.90mm 15\hskip4.90mm 6\hskip4.90mm 1 \cr\noalign{\vskip 1.5 mm}
+		1\hskip4.75mm 7\hskip4.75mm 21\hskip4.75mm 35\hskip4.75mm 35\hskip4.75mm 21\hskip4.75mm 7\hskip4.75mm 1 \cr\noalign{\vskip 1.5 mm}
+		1\hskip4.5mm 8\hskip4.5mm 28\hskip4.5mm 56\hskip4.5mm 70\hskip4.5mm 56\hskip4.5mm 28\hskip4.5mm 8\hskip4.5mm 1 \cr\noalign{\vskip 1.5 mm}
+		1\hskip4mm 9\hskip4mm 36\hskip4mm 84\hskip4mm 126\hskip4mm 126\hskip4mm 84\hskip4mm 36\hskip4mm 9\hskip4mm 1 \cr\noalign{\vskip 1.5 mm}
+		1\hskip3mm 10\hskip3mm 45\hskip3mm 120\hskip3mm 210\hskip3mm 252\hskip3mm 210\hskip3mm 120\hskip3mm 45\hskip3mm 10\hskip3mm 1 \cr\noalign{\vskip 1.5 mm}
+	}
+}
+\end{center}
+Commonly Factored Polynomials:
+
+$$
+\begin{array}{lcl}
+		{x^2-y^2} &=& (x-y)(x+y) \\
+		{(x+y)^2} &=& x^2+2xy+y^2\\
+		{(x-y)^2} &=& x^2-2xy+y^2\\	
+		{x^3-y^3} &=& (x-y)(x^2+xy+y^2)\\
+		{x^3+y^3} &=& (x+y)(x^2-xy+y^2)\\
+		{(x+y)^3} &=& x^3+3x^2y+3xy^2+y^3\\
+		{(x-y)^3} &=& x^3-3x^2y+3xy^2-y^3\\
+\end{array}
+$$
+
+
 
 \section{Trigonometry}
 
-\subsection{Common Values \& the Unit Circle}
+\subsection{Common Values and the Unit Circle}
 \begin{table}[H]
 	\centering
 	\renewcommand{\arraystretch}{1.5}
@@ -121,7 +156,7 @@ $${(x+y)}^n  = \sum_{k=0}^{k=n} {^nC_k} x^{n-k}y^k$$
 
 
 
-\subsection{Complex Numbers}
+\subsection{Trigonometry in the Complex Plane}
 Euler's Formula:
 $$re^{i\theta} = r(\cos\theta + i\sin\theta)$$
 De Moivre's Formula:
@@ -216,25 +251,37 @@ In Fig.\ref{eqnline}, the vector {\bfseries r} can be written as $\mathbf{r} = \
 &\diff{x}\sin^{-1}x = \frac{1}{\sqrt{1 - x^2}} & &\diff{x}\cos^{-1}x = - \frac{1}{\sqrt{1 - x^2}} & &\diff{x}\tan^{-1}x = \frac{1}{1 + x^2} \\
 &\diff{x}\sec^{-1}x = \frac{1}{ x \sqrt{x^2 - 1}} &  &\diff{x}\csc^{-1}x = -\frac{1}{ x \sqrt{x^2 - 1}} & &\diff{x}\cot^{-1}x = -\frac{1}{1 + x^2} \\
 \end{align*}
+\subsection{Applications of Derivatives}
+\subsubsection{Tangent to a Curve}
+Tangent to a curve $f(x)$ at a point $a$:
+$$\diff{x}f(x)\Big\rvert_{x=a}$$
+For a straight line passing through points $\mathrm{(x_1,y_1)}$ and  $\mathrm{(x_2, y_2)}$, the slope, m, is constant and is calculated by:
+$$m = \tan\theta = \frac{y_2 - y_1}{x_2 - x_1}$$
+Where $\theta$ is the angle of the line with the x-axis
 
-
+\subsection{Taylor Polynomials Expansions}
+\begin{defn}[Taylor Polynomial]
+Let $f(x)$ be a real-valued function that is infinitely differentiable at $x = x_0$. The Taylor series expansion for the function $f(x)$ centered around the point $x = x_0$ is given by
+$$\sum_{n=0}^{\infty}f^{(n)}(x_0)\frac{(x - x_0)^{n}}{n!}$$
+Where $f^{(n)}(x_0)$ is the $n^\text{th}$ derivative of $f(x)$ at $x = x_0$.
+\end{defn}
 
 \section{Integral Calculus}
 \subsection{Fundamental Theorem of Calculus}
-\begin{theorem}[First Fundamental Theorem of Calculus]
+\begin{thrm}[First Fundamental Theorem of Calculus]
 	\label{ftc}
 	If $f$ is continuous on $[a,b]$, then the function defined by
 	$$S(x)=\int _{ a }^{ x }{ f(t)\, dt }$$
 	is continuous on $[a,b]$ and differentiable on $(a,b)$, and $S'(x)=f(x)$.
-\end{theorem}
+\end{thrm}
 Written in Leibniz notation,
 $$\diff{x}\int_{a}^{x} f(t)\, dt = f(x)$$
 
-\begin{theorem}[Second Fundamental Theorem of Calculus]
+\begin{thrm}[Second Fundamental Theorem of Calculus]
 	If $f$ is a continuous function on $[a,b]$, then	
 	$$\int _{ a }^{ b }{ f(x)\, dx=F(b)-F(a)}$$
 	where $F$ is the anti-derivative of $f$, i.e. $F'=f$.
-\end{theorem}
+\end{thrm}
 \subsection{Common Antiderivatives}
 \begin{align*}
 &\int\frac{1}{x}\der{x} = \ln|x| + c & &\int{\frac{1}{ax + b}\der{x}} = \frac{1}{a}\ln|ax+b| + c \\

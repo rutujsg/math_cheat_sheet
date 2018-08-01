@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.20)  1 AUG 2018 18:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.20)  1 AUG 2018 19:59
 entering extended mode
 **"./Formula Sheet.tex"
 ("Formula Sheet.tex"
@@ -210,6 +210,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box55
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen144
+\extrarowheight=\dimen145
+\NC@list=\toks23
+\extratabsurround=\skip48
+\backup@length=\skip49
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
@@ -262,7 +270,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen144
+\@linkdim=\dimen146
 \Hy@linkcounter=\count116
 \Hy@pagecounter=\count117
 
@@ -288,10 +296,10 @@ Package hyperref Info: Bookmarks ON on input line 4751.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
-\XeTeXLinkMargin=\dimen145
+\XeTeXLinkMargin=\dimen147
 \Fld@menulength=\count120
-\Field@Width=\dimen146
-\Fld@charsize=\dimen147
+\Field@Width=\dimen148
+\Fld@charsize=\dimen149
 Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
@@ -318,42 +326,43 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip48
+\Hy@SectionHShift=\skip50
 )
-\c@theorem=\count126
+\c@thrm=\count126
+\c@defn=\count127
 
 ("Formula Sheet.aux")
 \openout1 = `"Formula Sheet.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 ("C:\Users\Rutuj Gavankar\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.
 mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count127
-\scratchdimen=\dimen148
+\scratchcounter=\count128
+\scratchdimen=\dimen150
 \scratchbox=\box56
-\nofMPsegments=\count128
-\nofMParguments=\count129
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count130
-\MPscratchDim=\dimen149
-\MPnumerator=\count131
-\makeMPintoPDFobject=\count132
-\everyMPtoPDFconversion=\toks24
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen151
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
+\everyMPtoPDFconversion=\toks25
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -402,18 +411,18 @@ G,.JBIG2,.JB2,.eps]
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 24.
+Package hyperref Info: Link coloring OFF on input line 25.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count133
+\c@section@level=\count134
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
 
 ("Formula Sheet.out") ("Formula Sheet.out")
 \@outlinefile=\write3
@@ -425,57 +434,68 @@ LaTeX Info: Redefining \nameref on input line 24.
 
  [1
 
-{C:/Users/Rutuj Gavankar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/Rutuj Gavankar/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 50.
+(amsmath)                 on input line 51.
 
-<Unit_circle_angles.pdf, id=139, pagebox=cropbox, 542.025pt x 542.025pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+
+ []
+
+
+Overfull \hbox (16.63432pt too wide) in alignment at lines 64--76
+[]
+ []
+
+[3]
+<Unit_circle_angles.pdf, id=169, pagebox=cropbox, 542.025pt x 542.025pt>
 File: Unit_circle_angles.pdf Graphic file (type pdf)
 <use Unit_circle_angles.pdf>
-Package pdftex.def Info: Unit_circle_angles.pdf  used on input line 78. on inpu
-t line 78.
+Package pdftex.def Info: Unit_circle_angles.pdf  used on input line 113. on inp
+ut line 113.
 Package pdftex.def Info: Requested size: 433.62057pt x 433.62057pt on input lin
-e 78.
-[2] [3] [4]
+e 113.
+ [4] [5]
 
 pdfTeX warning: pdflatex.exe (file ./vector_add.pdf): PDF inclusion: found PDF 
 version <1.6>, but at most version <1.5> allowed
-<vector_add.pdf, id=161, pagebox=cropbox, 206.73686pt x 184.83725pt>
+<vector_add.pdf, id=180, pagebox=cropbox, 206.73686pt x 184.83725pt>
 File: vector_add.pdf Graphic file (type pdf)
 <use vector_add.pdf>
-Package pdftex.def Info: vector_add.pdf  used on input line 159. on input line 
-159.
+Package pdftex.def Info: vector_add.pdf  used on input line 194. on input line 
+194.
 Package pdftex.def Info: Requested size: 206.73634pt x 184.83678pt on input lin
-e 159.
-[5 <./vector_add.pdf>]
-<line.png, id=171, 268.75406pt x 225.84375pt>
+e 194.
+[6 <./vector_add.pdf>]
+<line.png, id=190, 268.75406pt x 225.84375pt>
 File: line.png Graphic file (type png)
 <use line.png>
-Package pdftex.def Info: line.png  used on input line 196. on input line 196.
+Package pdftex.def Info: line.png  used on input line 231. on input line 231.
 Package pdftex.def Info: Requested size: 201.56505pt x 169.38239pt on input lin
-e 196.
- [6 <./line.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
- [7] [8 <./Unit_circle_angles.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
-
+e 231.
+ [7 <./line.png>] [8]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 294.
+ [9] [10 <./Unit_circle_angles.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 294.
 ("Formula Sheet.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 294.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 294.
 Package rerunfilecheck Info: File `"Formula Sheet".out' has not changed.
-(rerunfilecheck)             Checksum: 639495BEA281C3ADBF9B81030CEEC19D;1722.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
+(rerunfilecheck)             Checksum: B4F3950E5F1D8E628C141BC09E7291EB;1976.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 294.
  ) 
 Here is how much of TeX's memory you used:
- 6421 strings out of 493312
- 93418 string characters out of 3138870
- 200715 words of memory out of 3000000
- 9867 multiletter control sequences out of 15000+200000
- 10901 words of font info for 39 fonts, out of 3000000 for 9000
+ 6485 strings out of 493312
+ 94102 string characters out of 3138870
+ 199453 words of memory out of 3000000
+ 9921 multiletter control sequences out of 15000+200000
+ 11602 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,10n,32p,274b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,10n,32p,274b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
@@ -484,10 +504,11 @@ nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Formula Sheet.pdf" (8 pages, 233624 bytes).
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on "Formula Sheet.pdf" (10 pages, 248295 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 265 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
