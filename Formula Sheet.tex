@@ -12,7 +12,7 @@
 \DeclareMathOperator{\sech}{sech}
 \DeclareMathOperator{\csch}{csch}
 
-\title{Mathematical Formulae and Identities}
+\title{Undergraduate Mathematics Formulae and Identities}
 \author{Rutuj Gavankar \\ \email}
 
 
@@ -35,34 +35,32 @@
 \section{Preliminary Algebra}
 
 \subsection{Coordinate Geometry}
-Equation of a line:
+\paragraph{Equation of a line}
 $$y = mx + c$$
-Equation of a circle:
+\paragraph{Equation of a circle}
 $${(x-h)}^2 + {(y-k)}^2 = r^2$$
-Equation of a parabola:
+\paragraph{Equation of a parabola}
 \begin{align*}
 y - k &= a{(x-h)}^2 & x-h = a{(y-k)^2} \\
 \end{align*}
-Equation of an ellipse:
+\paragraph{Equation of an ellipse}
 \begin{align*}
 \frac{{(x-h)}^2}{a^2} + \frac{{(y-k)}^2}{b^2} = 1 
 \end{align*}
-Equation of a hyperbola:
+\paragraph{Equation of a hyperbola}
 \begin{align*}
 \frac{{(x-h)}^2}{a^2} - \frac{{(y-k)}^2}{b^2} = 1 
 \end{align*}
 
 
 \subsection{Logarithms and Exponentials}
-Properties of Exponentials
+\paragraph{Properties of Exponentials}
 \begin{align*} 
 		&a^n a^m = a^{n+m} & &\frac{a^n}{a^m}   = a^{n-m}\\
 		&(a b)^n = a^n  b^n & &\left({\frac{a}{b}}\right)^n  = \frac{a^n}{b^n}\\
 		&(a^n)^m = a^{n m} & &\left({\frac{a}{b}}\right)^{-n} = {\frac{b}{a}}^{n}\\
 \end{align*}
-Properties of Logarithms
-
-
+\paragraph{Properties of Logarithms}
 \begin{align*}
 &\log_aa  = 1 &   &\log_a1 = 0 \\  
 &(\log_ab)(\log_bc) = \log_ac & &\log_ab = \frac{1}{\log_ba} \\ 
@@ -81,7 +79,7 @@ Also,
 \end{align*}
 For a binomial expression raised to the power \emph{n}:
 $${(x+y)}^n  = \sum_{k=0}^{k=n} {^nC_k} x^{n-k}y^k$$
-Pascal's Triangle \\
+\paragraph{Pascal's Triangle}
 \begin{center}
 	~
 \vbox{\offinterlineskip 
@@ -100,7 +98,7 @@ Pascal's Triangle \\
 	}
 }
 \end{center}
-Commonly Factored Polynomials:
+\paragraph{Commonly Factored Polynomials}
 
 $$
 \begin{array}{lcl}
@@ -134,7 +132,7 @@ $$
 \end{table}
 \begin{figure}[ht]
 	\centering
-	\includegraphics[scale=0.8]{Unit_circle_angles.pdf}
+	\includegraphics[scale=0.8]{figures/Unit_circle_angles.pdf}
 	\caption{\label{unitcircle} Unit Circle}
 \end{figure}
 
@@ -157,17 +155,32 @@ $$
 
 \subsection{Sum and Difference Formulae}
 \begin{align*}
-\sin{(x \pm y)} &= \sin x\cos y \pm \cos x\sin y &
+&\sin{(x \pm y)} = \sin x\cos y \pm \cos x\sin y &
 \cos{(x \pm y)} &= \cos x \cos y \mp \sin x \sin y \\
-\tan{(x \pm y)} &= \frac{\tan x \pm \tan y}{1 \mp \tan x \tan y}
+&\tan{(x \pm y)} = \frac{\tan x \pm \tan y}{1 \mp \tan x \tan y}
 \end{align*}
 \begin{align*}
-\arcsin x \pm \arcsin y &= \arcsin{(x\sqrt{1 - y^2}\pm y\sqrt{1 - x^2})} \\ \arccos x \pm \arccos y &= \arccos{(xy \mp \sqrt{(1-x^2)(1-y^2)})} \\
-\arctan x \pm \arctan y &= \arctan{(\frac{x\pm y}{1 \mp xy})}
+&\arcsin x \pm \arcsin y = \arcsin{(x\sqrt{1 - y^2}\pm y\sqrt{1 - x^2})} \\ &\arccos x \pm \arccos y = \arccos{(xy \mp \sqrt{(1-x^2)(1-y^2)})} \\
+&\arctan x \pm \arctan y = \arctan{(\frac{x\pm y}{1 \mp xy})}
 \end{align*}
 
 \subsection{Sum to Product Formulae}
 \subsection{Product to Sum Formulae}
+\subsection{Laws of Sines and Cosines}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{figures/triangle}
+	\caption{\label{triangle}$\Delta ABC$ in a circumscribed circle of circumradius $r$}
+\end{figure}
+\paragraph{Law of Sines}
+$$\frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c} = \frac{1}{2r}$$ 
+\paragraph{Law of Cosines}
+\begin{align*}
+&a^2 = b^2 + c^2 - 2bc\cos A & &A =\cos^{-1}{\left(\frac{b^2 + c^2 - a^2}{2bc}\right)} \\
+&b^2 = a^2 + c^2 - 2ac\cos B & &A =\cos^{-1}{\left(\frac{a^2 + c^2 - b^2}{2ac}\right)} \\
+&c^2 = a^2 + b^2 - 2ab\cos C & &C =\cos^{-1}{\left(\frac{a^2 + b^2 - c^2}{2ab}\right)} \\
+\end{align*}
+
 \subsection{Inverse Trigonometric Functions}
 \begin{align*}
 	&\sin^{-1}(-x) =-\sin^{-1}x &   &\cos^{-1}(-x) =\pi-\cos^{-1}x, & &\lvert x\rvert\leq 1 \\
@@ -181,19 +194,19 @@ $$
 
 
 \subsection{Trigonometry in the Complex Plane}
-Euler's Formula:
+\paragraph{Euler's Formula}
 $$re^{i\theta} = r(\cos\theta + i\sin\theta)$$
-De Moivre's Formula:
+\paragraph{De Moivre's Formula}
 $${(\cos\theta + i\sin\theta)}^n = \cos{(n\theta)} + i\sin{(n\theta)}$$
-Exponential Definition of Trigonometric Functions:
+\paragraph{Exponential Definition of Trigonometric Functions}
 \begin{align*}
 \cos{(ix)} &= \frac{(e^x + e^{-x})}{2} & \sin{(ix)} &= i\frac{(e^x - e^{-x})}{2} & \tan{(ix)} &= i\frac{(e^x - e^{-x})}{(e^x + e^{-x})}
 \end{align*}
-Exponential Definition of Hyperbolic Functions:
+\paragraph{Exponential Definition of Hyperbolic Functions}
 \begin{align*}
 \cosh{(x)} &= \frac{(e^x + e^{-x})}{2} & \sinh{(x)} &= \frac{(e^x - e^{-x})}{2} & \tanh{(x)} &= \frac{(e^x - e^{-x})}{(e^x + e^{-x})}
 \end{align*}
-Relationship between hyperbolic and trigonometric functions:
+\paragraph{Relationship between hyperbolic and trigonometric functions}
 \begin{align*}
 \cosh x &= \cos{ix} & \cos x = \cosh{ix} \\
 i\sinh x &= \sin{ix} & i\sin{x} = \sinh{ix} 
@@ -215,27 +228,31 @@ i\sinh x &= \sin{ix} & i\sin{x} = \sinh{ix}
 \section{Vector Algebra}
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=1]{vector_add.pdf}
+	\includegraphics[scale=1]{figures/vector_add.pdf}
 	\caption{\label{vector_add} Addition of two vectors using Parallelogram Law}
 \end{figure}
 \subsection{Scalar Product}
-
+\begin{defn}[Dot Product]
+For two vectors $a$ and $b$, the scalar product, or the dot product, is defined as:
 \begin{align*}
 a \cdot b &= \lvert a \rvert \lvert b \rvert \cos\theta \\
 &= \langle a |b \rangle
 \end{align*}
-
+Where $\theta$ is the angle between the two vectors.
+\end{defn}
 If $a = x_1 \hat{\imath} + y_1 \hat{\jmath} + z_1 \hat{k}$ and $b = x_2 \hat{\imath} + y_2 \hat{\jmath} + z_2 \hat{k}$ then, 	 
 $$a \cdot b = (x_1 x_2)\hat{\imath} + (y_1 y_2)\hat{\jmath} + (z_1 z_2)\hat{k}$$
-
-If $a \cdot b = 0$ then, $ a \perp b$
+If $a \perp b$, then $a\cdot b = 0$ and, if $a \parallel b$, then $a\cdot b = |a||b|$ 
 
 \subsection{Vector Product}
+\begin{defn}[Cross Product]
+For two vectors $a$ and $b$, the vector product, or the cross product, is defined as:
 \begin{align*}
 a\times b &= \lvert a \rvert \lvert b \rvert \sin\theta \\
 &=|b\rangle \langle a|
 \end{align*}
-
+Where $\theta$ is the angle between the two vectors.
+\end{defn}
 If $a = x_1 \hat{\imath} + y_1 \hat{\jmath} + z_1 \hat{k}$ and $b = x_2 \hat{\imath} + y_2 \hat{\jmath} + z_2 \hat{k}$ then,
 $$
 a \times b =  
@@ -245,14 +262,14 @@ x_1 & y_1 & z_1 \\
 x_2 & y_2 & z_2 \\
 \end{vmatrix}
 $$
-
+The resultant is a vector $a\times{b}$ that is mutually perpendicular to both, $a$ and $b$.
 \subsection{Equations of lines, planes and spheres}
 
 Equation of a line:
 In Fig.\ref{eqnline}, the vector {\bfseries r} can be written as $\mathbf{r} = \mathbf{a + \lambda b}$
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.75]{line}
+	\includegraphics[scale=0.75]{figures/line}
 	\caption{\label{eqnline} The equation of a line. The vector b is in the direction \emph{AR} and $\mathcal{\lambda}$b is the vector from \emph{A} to \emph{R}.}
 \end{figure}
 
@@ -286,8 +303,8 @@ In Fig.\ref{eqnline}, the vector {\bfseries r} can be written as $\mathbf{r} = \
 \section{Sequences and Series}
 \subsection{Common Summation Formulae}
 \begin{align*}
-\sum_{i = 1}^{n} i &= \frac{n(n+1)}{2} & \sum_{i = 1}^{n} i^2 &= \frac{n(n+1)(2n+1)}{6} \\
-\sum_{i = 1}^{n}i^3 &= \frac{n^2(n+1)^2}{4} & \sum_{i = 1}^{n}r^i &= \frac{1-r^{n+1}}{1-r}
+&\sum_{i = 1}^{n} i = \frac{n(n+1)}{2} & \sum_{i = 1}^{n} i^2 &= \frac{n(n+1)(2n+1)}{6} \\
+&\sum_{i = 1}^{n}i^3 = \frac{n^2(n+1)^2}{4} & \sum_{i = 1}^{n}r^i &= \frac{1-r^{n+1}}{1-r}
 \end{align*}
 \subsection{Geometric Series}
 The Geometric Series
@@ -296,6 +313,7 @@ $$
 Is convergent if $|r|< 1$ and,
 $$S = \frac{a}{1-r}$$
 \subsection{Power-Series}
+The power series
 $$\zeta(p) = \sum_{n = 1}^{\infty} \frac{1}{n^p}$$
 converges for $p>1$
 \subsection{Series Convergence Tests}
@@ -306,19 +324,26 @@ converges for $p>1$
 
 
 \section{Differential Calculus}
-
+\subsection{Formal Definition of a derivative}
+\begin{defn}[Limit Definition of a derivative]
+	The derivative of a continuous function $f(x)$ on an interval $I$ is defined as the limit of the difference quotient
+	$$f'(x) = \lim_{\Delta x \to 0}{\frac{f(x + \Delta x) - f(x)}{\Delta x}}$$
+	Where $\Delta x$ is a small change in $x$
+\end{defn}
 \subsection{Derivative Rules and Properties}
-The differntial operator is a linear operator
-\begin{align*}
-&{(f(x) \pm g(x))}' = f'(x) \pm g'(x) & &{(c\cdot f(x)}' = c\cdot f'(x)
-\end{align*}
-Product Rule:
+The differntial operator is a linear operator, i.e.\,
+$${(f(x) \pm g(x))}' = f'(x) \pm g'(x)$$ 
+$${(c\cdot f(x)}' = c\cdot f'(x)$$
+\paragraph{Product Rule}
 $$(f(x)\cdot g(x))' = f'(x)\cdot g(x) + f(x)\cdot g'(x)$$
 Quotient Rule:
 $$\left(\frac{f(x)}{g(x)}\right)' = \frac{f'(x)\cdot g(x) - g'(x)\cdot f(x)}{(g(x))^2}$$
-Chain Rule:
-$$ (f(g(x)))' = f'(g(x))\cdot g'(x)
-$$
+\paragraph{Chain Rule}
+$$ (f(g(x)))' = f'(g(x))\cdot g'(x)$$
+\begin{thrm}[Leibnitz' Theorem]
+	For a function $f(x) = u(x)v(x)$, the ${n^{th}}$ derivative, $f^{(n)}(x)$ is given by
+	$$f^{(n)}= \sum_{r=0}^{n}{^nC_r u^{(r)}v^{(n-r)}}$$
+\end{thrm}
 \subsection{Common Derivatives}
 \begin{align*}
 &\diff{x}a^x = (\ln a)a^x & &\diff{x}\log_a x = \frac{1}{x\ln a} \\
@@ -327,6 +352,11 @@ $$
 &\diff{x}\sin^{-1}x = \frac{1}{\sqrt{1 - x^2}} & &\diff{x}\cos^{-1}x = - \frac{1}{\sqrt{1 - x^2}} & &\diff{x}\tan^{-1}x = \frac{1}{1 + x^2} \\
 &\diff{x}\sec^{-1}x = \frac{1}{ x \sqrt{x^2 - 1}} &  &\diff{x}\csc^{-1}x = -\frac{1}{ x \sqrt{x^2 - 1}} & &\diff{x}\cot^{-1}x = -\frac{1}{1 + x^2} \\
 \end{align*}
+\subsection{Mean Value Theorem}
+\begin{thrm}[Mean Value Theorem]
+	If a function $f(x)$ is continuous and differentiable in the range $(a,c)$, then there exists atleast one value b, $a < b < c$, such that
+	$$f'(b) = \frac{f(c) - f(a)}{c - a}$$
+\end{thrm}
 \subsection{Applications of Derivatives}
 \subsubsection{Tangent to a Curve}
 Tangent to a curve $f(x)$ at a point $a$:
@@ -335,18 +365,29 @@ For a straight line passing through points $\mathrm{(x_1,y_1)}$ and  $\mathrm{(x
 $$m = \tan\theta = \frac{y_2 - y_1}{x_2 - x_1}$$
 Where $\theta$ is the angle of the line with the x-axis
 
-\subsubsection{Analysis}
+\subsubsection{Analysis of a Curve}
 \paragraph{Critical Points}
-\( c \) is a critical point of \( f(x) \) if \( f'(c)=0 \) or \( f'(c) \) doesn't exist.
-\paragraph{Increasing/Decreasing}
-\( f(x) \) is increasing on an interval \(I\) if \( f'(x) > 0 \) for all \(x\) on the interval \(I\).
-\( f(x) \) is decreasing on an interval \(I\) if \( f'(x) < 0 \) for all \(x\) on the interval \(I\).
-\( f(x) \) is constant on an interval \(I\) if \( f'(x) = 0 \) for all \(x\) on the interval \(I\).
-\paragraph{Concave Up/Concave Down}
-\( f(x) \) is concave up on an interval \(I\) if \( f''(x) > 0 \) for all \(x\) on the interval \(I\).
-\( f(x) \) is concave down on an interval \(I\) if \( f''(x) < 0 \) for all \(x\) on the interval \(I\).
+$x = a$ is a critical point of $ f(x) $ if $ f'(a)=0 $ or $ f'(a) $ doesn't exist.
+\paragraph{Slope}
+\begin{enumerate}
+	\item $ f(x) $ is increasing on an interval $I$ if $f'(x) > 0$, i.e.\ it has a positive slope on that interval.
+	\item $f(x)$ is decreasing on an interval $I$ if $f'(x) < 0$, i.e.\ it has a negative slope on that interval. 
+	\item $f(x)$ is constant on an interval $I$ if $ f'(x) = 0 $.
+\end{enumerate}
+\paragraph{Concavity}
+\begin{enumerate}
+	\item $f(x)$ is concave up on an interval $I$ if $ f''(x) > 0 $.
+	\item $f(x)$ is concave down on an interval $I$ if $f''(x) < 0 $.
+\end{enumerate}
 \paragraph{Inflection Points}
-\( c \) is an inflection point of \( f(x) \) if the concavity changes at \(f(c)\).
+$x = a$ is an inflection point of $f(x)$ if the concavity changes at $f(a)$.
+\paragraph{Extrema}
+$f(a)$ is a stationary point on an interval $I$ if $f'(a) = 0$.
+\begin{enumerate}
+	\item If $f''(a) > 0$, then $f(a)$ is a local minimum.
+	\item If $f''(a)< 0$, then $f(a)$ is a local maximum.
+	\item If $f''(a)= 0$, then the second derivative test fails.
+\end{enumerate}
 
 \subsubsection{Taylor Polynomials}
 \begin{defn}[Taylor Polynomial]
@@ -374,13 +415,17 @@ $$\diff{x}\int_{a}^{x} f(t)\, dt = f(x)$$
 	$$\int _{ a }^{ b }{ f(x)\, dx=F(b)-F(a)}$$
 	where $F$ is the anti-derivative of $f$, i.e. $F'=f$.
 \end{thrm}
-\subsection{Common Antiderivatives}
+\subsection{Common Antiderivatives and Integrals}
+\paragraph{Antiderivatives}
 \begin{align*}
 &\int\frac{1}{x}\der{x} = \ln|x| + c & &\int{\frac{1}{ax + b}\der{x}} = \frac{1}{a}\ln|ax+b| + c \\
 &\int \cos a \der{x}= \frac1a \sin ax + c & &\int \sin ax\der{x}= - \frac1a \cos ax + c \\
 &
 \end{align*}
-
+\section{Multivariate Calculus}
+\section{Calculus of Variations}
+\section{Linear Algebra}
+\section{Statistics}
 
 
 

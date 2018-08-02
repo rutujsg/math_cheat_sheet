@@ -9,31 +9,38 @@
 \BOOKMARK [2][-]{subsection.2.4}{Sum and Difference Formulae}{section.2}% 9
 \BOOKMARK [2][-]{subsection.2.5}{Sum to Product Formulae}{section.2}% 10
 \BOOKMARK [2][-]{subsection.2.6}{Product to Sum Formulae}{section.2}% 11
-\BOOKMARK [2][-]{subsection.2.7}{Inverse Trigonometric Functions}{section.2}% 12
-\BOOKMARK [2][-]{subsection.2.8}{Trigonometry in the Complex Plane}{section.2}% 13
-\BOOKMARK [2][-]{subsection.2.9}{Hyperbolic Identities}{section.2}% 14
-\BOOKMARK [2][-]{subsection.2.10}{Inverse Hyperbolic Functions}{section.2}% 15
-\BOOKMARK [1][-]{section.3}{Vector Algebra}{}% 16
-\BOOKMARK [2][-]{subsection.3.1}{Scalar Product}{section.3}% 17
-\BOOKMARK [2][-]{subsection.3.2}{Vector Product}{section.3}% 18
-\BOOKMARK [2][-]{subsection.3.3}{Equations of lines, planes and spheres}{section.3}% 19
-\BOOKMARK [1][-]{section.4}{Limits}{}% 20
-\BOOKMARK [2][-]{subsection.4.1}{Precise Definition of a Limit}{section.4}% 21
-\BOOKMARK [2][-]{subsection.4.2}{Common Limits}{section.4}% 22
-\BOOKMARK [2][-]{subsection.4.3}{L'H\364pital's Rule}{section.4}% 23
-\BOOKMARK [1][-]{section.5}{Sequences and Series}{}% 24
-\BOOKMARK [2][-]{subsection.5.1}{Common Summation Formulae}{section.5}% 25
-\BOOKMARK [2][-]{subsection.5.2}{Geometric Series}{section.5}% 26
-\BOOKMARK [2][-]{subsection.5.3}{Power-Series}{section.5}% 27
-\BOOKMARK [2][-]{subsection.5.4}{Series Convergence Tests}{section.5}% 28
-\BOOKMARK [2][-]{subsection.5.5}{Common Convergent Series}{section.5}% 29
-\BOOKMARK [1][-]{section.6}{Differential Calculus}{}% 30
-\BOOKMARK [2][-]{subsection.6.1}{Derivative Rules and Properties}{section.6}% 31
-\BOOKMARK [2][-]{subsection.6.2}{Common Derivatives}{section.6}% 32
-\BOOKMARK [2][-]{subsection.6.3}{Applications of Derivatives}{section.6}% 33
-\BOOKMARK [3][-]{subsubsection.6.3.1}{Tangent to a Curve}{subsection.6.3}% 34
-\BOOKMARK [3][-]{subsubsection.6.3.2}{Analysis}{subsection.6.3}% 35
-\BOOKMARK [3][-]{subsubsection.6.3.3}{Taylor Polynomials}{subsection.6.3}% 36
-\BOOKMARK [1][-]{section.7}{Integral Calculus}{}% 37
-\BOOKMARK [2][-]{subsection.7.1}{Fundamental Theorem of Calculus}{section.7}% 38
-\BOOKMARK [2][-]{subsection.7.2}{Common Antiderivatives}{section.7}% 39
+\BOOKMARK [2][-]{subsection.2.7}{Laws of Sines and Cosines}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.8}{Inverse Trigonometric Functions}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.9}{Trigonometry in the Complex Plane}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.10}{Hyperbolic Identities}{section.2}% 15
+\BOOKMARK [2][-]{subsection.2.11}{Inverse Hyperbolic Functions}{section.2}% 16
+\BOOKMARK [1][-]{section.3}{Vector Algebra}{}% 17
+\BOOKMARK [2][-]{subsection.3.1}{Scalar Product}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.2}{Vector Product}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.3}{Equations of lines, planes and spheres}{section.3}% 20
+\BOOKMARK [1][-]{section.4}{Limits}{}% 21
+\BOOKMARK [2][-]{subsection.4.1}{Precise Definition of a Limit}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.2}{Common Limits}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.3}{L'H\364pital's Rule}{section.4}% 24
+\BOOKMARK [1][-]{section.5}{Sequences and Series}{}% 25
+\BOOKMARK [2][-]{subsection.5.1}{Common Summation Formulae}{section.5}% 26
+\BOOKMARK [2][-]{subsection.5.2}{Geometric Series}{section.5}% 27
+\BOOKMARK [2][-]{subsection.5.3}{Power-Series}{section.5}% 28
+\BOOKMARK [2][-]{subsection.5.4}{Series Convergence Tests}{section.5}% 29
+\BOOKMARK [2][-]{subsection.5.5}{Common Convergent Series}{section.5}% 30
+\BOOKMARK [1][-]{section.6}{Differential Calculus}{}% 31
+\BOOKMARK [2][-]{subsection.6.1}{Formal Definition of a derivative}{section.6}% 32
+\BOOKMARK [2][-]{subsection.6.2}{Derivative Rules and Properties}{section.6}% 33
+\BOOKMARK [2][-]{subsection.6.3}{Common Derivatives}{section.6}% 34
+\BOOKMARK [2][-]{subsection.6.4}{Mean Value Theorem}{section.6}% 35
+\BOOKMARK [2][-]{subsection.6.5}{Applications of Derivatives}{section.6}% 36
+\BOOKMARK [3][-]{subsubsection.6.5.1}{Tangent to a Curve}{subsection.6.5}% 37
+\BOOKMARK [3][-]{subsubsection.6.5.2}{Analysis of a Curve}{subsection.6.5}% 38
+\BOOKMARK [3][-]{subsubsection.6.5.3}{Taylor Polynomials}{subsection.6.5}% 39
+\BOOKMARK [1][-]{section.7}{Integral Calculus}{}% 40
+\BOOKMARK [2][-]{subsection.7.1}{Fundamental Theorem of Calculus}{section.7}% 41
+\BOOKMARK [2][-]{subsection.7.2}{Common Antiderivatives and Integrals}{section.7}% 42
+\BOOKMARK [1][-]{section.8}{Multivariate Calculus}{}% 43
+\BOOKMARK [1][-]{section.9}{Calculus of Variations}{}% 44
+\BOOKMARK [1][-]{section.10}{Linear Algebra}{}% 45
+\BOOKMARK [1][-]{section.11}{Statistics}{}% 46
