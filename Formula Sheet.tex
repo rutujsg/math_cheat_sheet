@@ -165,7 +165,16 @@ $$
 \end{align*}
 
 \subsection{Sum to Product Formulae}
+\begin{align*}
+&\sin x + \sin y = 2\sin{\left(\frac{x+y}{2}\right)}\cos{\left(\frac{x-y}{2}\right)} & &\sin x - \sin y = 2\cos{\left(\frac{x+y}{2}\right)}\sin{\left(\frac{x-y}{2}\right)} \\
+&\cos x + \cos y = 2\cos{\left(\frac{x+y}{2}\right)}\cos{\left(\frac{x-y}{2}\right)} & 
+&\cos x - \cos y = -2\sin{\left(\frac{x+y}{2}\right)}\sin{\left(\frac{x-y}{2}\right)}
+\end{align*}
 \subsection{Product to Sum Formulae}
+\begin{align*}
+\sin(x + y) \sin(x - y) &= \sin^2x - \sin^2y &
+\cos(x + y) \cos(x - y) &=\cos^2x - \sin^2y \\
+\end{align*}
 \subsection{Laws of Sines and Cosines}
 \begin{figure}[H]
 	\centering
@@ -263,15 +272,32 @@ x_2 & y_2 & z_2 \\
 \end{vmatrix}
 $$
 The resultant is a vector $a\times{b}$ that is mutually perpendicular to both, $a$ and $b$.
+\subsection{Triple Products}
+\paragraph{Scalar Triple Product}
+$$[a\  b\  c] = (a\times b)\cdot c = a\cdot(b\times c) = \begin{vmatrix}
+a_1 & a_2 & a_3 \\
+b_1 & b_2 & b_3 \\
+c_1 & c_2 & c_3
+\end{vmatrix}$$
 \subsection{Equations of lines, planes and spheres}
 
-Equation of a line:
+\paragraph{Equation of a line}
 In Fig.\ref{eqnline}, the vector {\bfseries r} can be written as $\mathbf{r} = \mathbf{a + \lambda b}$
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.75]{figures/line}
 	\caption{\label{eqnline} The equation of a line. The vector b is in the direction \emph{AR} and $\mathcal{\lambda}$b is the vector from \emph{A} to \emph{R}.}
 \end{figure}
+General Equation of a line:
+$$\frac{x-x_1}{a} = \frac{y- y_1}{b} = \frac{z-z_1}{c}$$
+
+Parametric Equation of a line:
+\begin{align*}
+	&x = x_1 + at & &y= y_1 +bt & &z= z_1 +ct
+\end{align*}
+
+Where $t$ is a parameter
+\paragraph{Equation of a Plane}
 
 \section{Limits}
 \subsection{Precise Definition of a Limit}
@@ -317,9 +343,12 @@ The power series
 $$\zeta(p) = \sum_{n = 1}^{\infty} \frac{1}{n^p}$$
 converges for $p>1$
 \subsection{Series Convergence Tests}
-\subsection{Common Convergent Series}
-
-
+\subsection{Common Power Series}
+\begin{align*}
+e^x &= \sum_{n=0}^{\infty}{\frac{x^n}{n!}} = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!}+\dots \\
+\sin x &= \sum^{\infty}_{n=0} \frac{(-1)^n}{(2n+1)!} x^{2n+1} =  x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots\\
+\cos x &= \sum^{\infty}_{n=0} \frac{(-1)^n}{(2n)!} x^{2n} =  1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots \\
+\end{align*}
 
 
 
@@ -419,17 +448,18 @@ $$\diff{x}\int_{a}^{x} f(t)\, dt = f(x)$$
 \paragraph{Antiderivatives}
 \begin{align*}
 &\int\frac{1}{x}\der{x} = \ln|x| + c & &\int{\frac{1}{ax + b}\der{x}} = \frac{1}{a}\ln|ax+b| + c \\
-&\int \cos a \der{x}= \frac1a \sin ax + c & &\int \sin ax\der{x}= - \frac1a \cos ax + c \\
-&
+&\int \cos a \der{x}= \frac1a \sin ax + c & &\int \sin ax\der{x}= - \frac1a \cos ax + c  &  &\int \sec^2x \der{x} = 
 \end{align*}
 \section{Laplace and Fourier Transforms}
 \section{Vector Calculus}
+\subsection{Gradient}
+\subsection{Curl}
+\subsection{Divergence}
 \section{Calculus of Variations}
+\subsection{Euler - Lagrange Equation}
 \section{Ordinary Differential Equations}
 \section{Linear Algebra}
 \section{Statistics}
-
-
 
 
 \end{document}

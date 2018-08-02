@@ -17,30 +17,37 @@
 \BOOKMARK [1][-]{section.3}{Vector Algebra}{}% 17
 \BOOKMARK [2][-]{subsection.3.1}{Scalar Product}{section.3}% 18
 \BOOKMARK [2][-]{subsection.3.2}{Vector Product}{section.3}% 19
-\BOOKMARK [2][-]{subsection.3.3}{Equations of lines, planes and spheres}{section.3}% 20
-\BOOKMARK [1][-]{section.4}{Limits}{}% 21
-\BOOKMARK [2][-]{subsection.4.1}{Precise Definition of a Limit}{section.4}% 22
-\BOOKMARK [2][-]{subsection.4.2}{Common Limits}{section.4}% 23
-\BOOKMARK [2][-]{subsection.4.3}{L'H\364pital's Rule}{section.4}% 24
-\BOOKMARK [1][-]{section.5}{Sequences and Series}{}% 25
-\BOOKMARK [2][-]{subsection.5.1}{Common Summation Formulae}{section.5}% 26
-\BOOKMARK [2][-]{subsection.5.2}{Geometric Series}{section.5}% 27
-\BOOKMARK [2][-]{subsection.5.3}{Power-Series}{section.5}% 28
-\BOOKMARK [2][-]{subsection.5.4}{Series Convergence Tests}{section.5}% 29
-\BOOKMARK [2][-]{subsection.5.5}{Common Convergent Series}{section.5}% 30
-\BOOKMARK [1][-]{section.6}{Differential Calculus}{}% 31
-\BOOKMARK [2][-]{subsection.6.1}{Formal Definition of a derivative}{section.6}% 32
-\BOOKMARK [2][-]{subsection.6.2}{Derivative Rules and Properties}{section.6}% 33
-\BOOKMARK [2][-]{subsection.6.3}{Common Derivatives}{section.6}% 34
-\BOOKMARK [2][-]{subsection.6.4}{Mean Value Theorem}{section.6}% 35
-\BOOKMARK [2][-]{subsection.6.5}{Applications of Derivatives}{section.6}% 36
-\BOOKMARK [3][-]{subsubsection.6.5.1}{Tangent to a Curve}{subsection.6.5}% 37
-\BOOKMARK [3][-]{subsubsection.6.5.2}{Analysis of a Curve}{subsection.6.5}% 38
-\BOOKMARK [3][-]{subsubsection.6.5.3}{Taylor Polynomials}{subsection.6.5}% 39
-\BOOKMARK [1][-]{section.7}{Integral Calculus}{}% 40
-\BOOKMARK [2][-]{subsection.7.1}{Fundamental Theorem of Calculus}{section.7}% 41
-\BOOKMARK [2][-]{subsection.7.2}{Common Antiderivatives and Integrals}{section.7}% 42
-\BOOKMARK [1][-]{section.8}{Multivariate Calculus}{}% 43
-\BOOKMARK [1][-]{section.9}{Calculus of Variations}{}% 44
-\BOOKMARK [1][-]{section.10}{Linear Algebra}{}% 45
-\BOOKMARK [1][-]{section.11}{Statistics}{}% 46
+\BOOKMARK [2][-]{subsection.3.3}{Triple Products}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.4}{Equations of lines, planes and spheres}{section.3}% 21
+\BOOKMARK [1][-]{section.4}{Limits}{}% 22
+\BOOKMARK [2][-]{subsection.4.1}{Precise Definition of a Limit}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.2}{Common Limits}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.3}{L'H\364pital's Rule}{section.4}% 25
+\BOOKMARK [1][-]{section.5}{Sequences and Series}{}% 26
+\BOOKMARK [2][-]{subsection.5.1}{Common Summation Formulae}{section.5}% 27
+\BOOKMARK [2][-]{subsection.5.2}{Geometric Series}{section.5}% 28
+\BOOKMARK [2][-]{subsection.5.3}{Power-Series}{section.5}% 29
+\BOOKMARK [2][-]{subsection.5.4}{Series Convergence Tests}{section.5}% 30
+\BOOKMARK [2][-]{subsection.5.5}{Common Power Series}{section.5}% 31
+\BOOKMARK [1][-]{section.6}{Differential Calculus}{}% 32
+\BOOKMARK [2][-]{subsection.6.1}{Formal Definition of a derivative}{section.6}% 33
+\BOOKMARK [2][-]{subsection.6.2}{Derivative Rules and Properties}{section.6}% 34
+\BOOKMARK [2][-]{subsection.6.3}{Common Derivatives}{section.6}% 35
+\BOOKMARK [2][-]{subsection.6.4}{Mean Value Theorem}{section.6}% 36
+\BOOKMARK [2][-]{subsection.6.5}{Applications of Derivatives}{section.6}% 37
+\BOOKMARK [3][-]{subsubsection.6.5.1}{Tangent to a Curve}{subsection.6.5}% 38
+\BOOKMARK [3][-]{subsubsection.6.5.2}{Analysis of a Curve}{subsection.6.5}% 39
+\BOOKMARK [3][-]{subsubsection.6.5.3}{Taylor Polynomials}{subsection.6.5}% 40
+\BOOKMARK [1][-]{section.7}{Integral Calculus}{}% 41
+\BOOKMARK [2][-]{subsection.7.1}{Fundamental Theorem of Calculus}{section.7}% 42
+\BOOKMARK [2][-]{subsection.7.2}{Common Antiderivatives and Integrals}{section.7}% 43
+\BOOKMARK [1][-]{section.8}{Laplace and Fourier Transforms}{}% 44
+\BOOKMARK [1][-]{section.9}{Vector Calculus}{}% 45
+\BOOKMARK [2][-]{subsection.9.1}{Gradient}{section.9}% 46
+\BOOKMARK [2][-]{subsection.9.2}{Curl}{section.9}% 47
+\BOOKMARK [2][-]{subsection.9.3}{Divergence}{section.9}% 48
+\BOOKMARK [1][-]{section.10}{Calculus of Variations}{}% 49
+\BOOKMARK [2][-]{subsection.10.1}{Euler - Lagrange Equation}{section.10}% 50
+\BOOKMARK [1][-]{section.11}{Ordinary Differential Equations}{}% 51
+\BOOKMARK [1][-]{section.12}{Linear Algebra}{}% 52
+\BOOKMARK [1][-]{section.13}{Statistics}{}% 53
