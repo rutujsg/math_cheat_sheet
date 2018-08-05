@@ -425,9 +425,7 @@ Let $f(x)$ be a real-valued function that is infinitely differentiable at $x = x
 $$\sum_{n=0}^{\infty}f^{(n)}(x_0)\frac{(x - x_0)^{n}}{n!}$$
 Where $f^{(n)}(x_0)$ is the $n^\text{th}$ derivative of $f(x)$ at $x = x_0$.
 \end{defn}
-
-
-
+\subsection{Partial Derivatives}
 \section{Integral Calculus}
 \subsection{Fundamental Theorem of Calculus}
 \begin{thrm}[First Fundamental Theorem of Calculus]
@@ -451,6 +449,15 @@ $$\diff{x}\int_{a}^{x} f(t)\, dt = f(x)$$
 &\int \cos a \der{x}= \frac1a \sin ax + c & &\int \sin ax\der{x}= - \frac1a \cos ax + c  &  &\int \sec^2x \der{x} = 
 \end{align*}
 \section{Laplace and Fourier Transforms}
+\subsection{Definition}
+\begin{defn}[Laplace Transform]
+The Laplace transform of a function $f(t)$, defined for all real numbers $t \geq 0$, is the function $F(s)$, which is a unilateral transform defined by
+
+$${\displaystyle F(s)=\int _{0}^{\infty }f(t)e^{-st}\,dt}$$
+where $s$ is a complex number frequency parameter
+
+${\displaystyle s=\sigma +i\omega }$, with real numbers $\sigma$ and $\omega$.
+\end{defn}
 \section{Vector Calculus}
 \subsection{Gradient}
 \subsection{Curl}
