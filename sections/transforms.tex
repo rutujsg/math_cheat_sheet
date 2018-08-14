@@ -1,0 +1,19 @@
+\section{Laplace and Fourier Transforms}
+\subsection{Laplace Transform}
+\begin{defn}[Laplace Transform]
+The Laplace transform of a function $f(t)$, defined for all real numbers $t \geq 0$, is the function $F(s)$, which is a unilateral transform defined by
+
+$${\displaystyle F(s)=\int _{0}^{\infty }f(t)e^{-st}\,dt}$$
+where $s$ is a complex number frequency parameter
+
+${\displaystyle s=\sigma +i\omega }$, with real numbers $\sigma$ and $\omega$.
+\end{defn}
+
+\subsection{Common Laplace Transforms}
+\begin{align*}
+&\laplace{1} = \frac{1}{s} & &\laplace{e^{at}} = \frac{1}{s-a} & &\laplace{t^n} = \frac{n!}{s^{n+1}}\\
+&\laplace{\sin{(at)}} = \frac{a}{s^2 + a^2} & &\laplace{\cos{(at)}} = \frac{s}{s^2 + a^2} & &\laplace{t\sin{(at)}} = \frac{2as}{{(s^2 + a^2)}^2}\\
+&\laplace{t\cos{(at)}} = \frac{s^2 - a^2}{{(s^2 + a^2)}^2} & &\laplace{\sinh{(at)}} = \frac{a}{s^2 - a^2} & &\laplace{\cosh{(at)}} = \frac{s}{s^2 - a^2} \\
+&\laplace{\delta{(t-c)}} = e^{-cs} & &\laplace{\sqrt{t}} = \frac{\sqrt{\pi}}{2s^{3/2}} & &\laplace{f'(t)} = sF(s) - f(0)\\
+\end{align*}
+$$\laplace{f^{(n)} (t)} = s^nF(s) - s^{n-1}f(0) - s^{n-2}f'(0)\dots - sf^{n-2}(0) - f^{n-1}(0)$$

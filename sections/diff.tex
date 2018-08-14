@@ -1,0 +1,74 @@
+\section{Differential Calculus}
+\subsection{Formal Definition of a derivative}
+\begin{defn}[Limit Definition of a derivative]
+	The derivative of a continuous function $f(x)$ on an interval $I$ is defined as the limit of the difference quotient
+	$$f'(x) = \lim_{\Delta x \to 0}{\frac{f(x + \Delta x) - f(x)}{\Delta x}}$$
+	Where $\Delta x$ is a small change in $x$
+\end{defn}
+\subsection{Derivative Rules and Properties}
+The differntial operator is a linear operator, i.e.\,
+$${(f(x) \pm g(x))}' = f'(x) \pm g'(x)$$
+$${(c\cdot f(x)}' = c\cdot f'(x)$$
+\paragraph{Product Rule}
+$$(f(x)\cdot g(x))' = f'(x)\cdot g(x) + f(x)\cdot g'(x)$$
+Quotient Rule:
+$$\left(\frac{f(x)}{g(x)}\right)' = \frac{f'(x)\cdot g(x) - g'(x)\cdot f(x)}{(g(x))^2}$$
+\paragraph{Chain Rule}
+$$ (f(g(x)))' = f'(g(x))\cdot g'(x)$$
+\begin{thrm}[Leibnitz' Theorem]
+	For a function $f(x) = u(x)v(x)$, the ${n^{th}}$ derivative, $f^{(n)}(x)$ is given by
+	$$f^{(n)}= \sum_{r=0}^{n}{^nC_r u^{(r)}v^{(n-r)}}$$
+\end{thrm}
+\subsection{Common Derivatives}
+\begin{align*}
+&\diff{x}a^x = (\ln a)a^x & &\diff{x}\log_a x = \frac{1}{x\ln a} \\
+&\diff{x}\sin x = \cos x & &\diff{x}\cos x = -\sin x & &\diff{x}\tan x = \sec^2 x\\
+&\diff{x}\csc x = -\csc x \cot x & &\diff{x}\sec x = \sec x \tan x & &\diff{x}\cot x = -\csc^2 x \\
+&\diff{x}\sin^{-1}x = \frac{1}{\sqrt{1 - x^2}} & &\diff{x}\cos^{-1}x = - \frac{1}{\sqrt{1 - x^2}} & &\diff{x}\tan^{-1}x = \frac{1}{1 + x^2} \\
+&\diff{x}\sec^{-1}x = \frac{1}{ x \sqrt{x^2 - 1}} &  &\diff{x}\csc^{-1}x = -\frac{1}{ x \sqrt{x^2 - 1}} & &\diff{x}\cot^{-1}x = -\frac{1}{1 + x^2} \\
+\end{align*}
+\subsection{Mean Value Theorem}
+\begin{thrm}[Mean Value Theorem]
+	If a function $f(x)$ is continuous and differentiable in the range $(a,c)$, then there exists atleast one value b, $a < b < c$, such that
+	$$f'(b) = \frac{f(c) - f(a)}{c - a}$$
+\end{thrm}
+\subsection{Applications of Derivatives}
+\subsubsection{Tangent to a Curve}
+Tangent to a curve $f(x)$ at a point $a$:
+$$\diff{x}f(x)\Big\rvert_{x=a}$$
+For a straight line passing through points $\mathrm{(x_1,y_1)}$ and  $\mathrm{(x_2, y_2)}$, the slope, m, is constant and is calculated by:
+$$m = \tan\theta = \frac{y_2 - y_1}{x_2 - x_1}$$
+Where $\theta$ is the angle of the line with the x-axis
+
+\subsubsection{Analysis of a Curve}
+\paragraph{Critical Points}
+$x = a$ is a critical point of $ f(x) $ if $ f'(a)=0 $ or $ f'(a) $ doesn't exist.
+\paragraph{Slope}
+\begin{enumerate}
+	\item $ f(x) $ is increasing on an interval $I$ if $f'(x) > 0$, i.e.\ it has a positive slope on that interval.
+	\item $f(x)$ is decreasing on an interval $I$ if $f'(x) < 0$, i.e.\ it has a negative slope on that interval.
+	\item $f(x)$ is constant on an interval $I$ if $ f'(x) = 0 $.
+\end{enumerate}
+\paragraph{Concavity}
+\begin{enumerate}
+	\item $f(x)$ is concave up on an interval $I$ if $ f''(x) > 0 $.
+	\item $f(x)$ is concave down on an interval $I$ if $f''(x) < 0 $.
+\end{enumerate}
+\paragraph{Inflection Points}
+$x = a$ is an inflection point of $f(x)$ if the concavity changes at $f(a)$.
+\paragraph{Extrema}
+$f(a)$ is a stationary point on an interval $I$ if $f'(a) = 0$.
+\begin{enumerate}
+	\item If $f''(a) > 0$, then $f(a)$ is a local minimum.
+	\item If $f''(a)< 0$, then $f(a)$ is a local maximum.
+	\item If $f''(a)= 0$, then the second derivative test fails.
+\end{enumerate}
+
+\subsubsection{Taylor Polynomials}
+\begin{defn}[Taylor Polynomial]
+\label{taylorpoly}
+Let $f(x)$ be a real-valued function that is infinitely differentiable at $x = x_0$. The Taylor series expansion for the function $f(x)$ centered around the point $x = x_0$ is given by
+$$\sum_{n=0}^{\infty}f^{(n)}(x_0)\frac{(x - x_0)^{n}}{n!}$$
+Where $f^{(n)}(x_0)$ is the $n^\text{th}$ derivative of $f(x)$ at $x = x_0$.
+\end{defn}
+\subsection{Partial Derivatives}

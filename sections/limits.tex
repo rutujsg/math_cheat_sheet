@@ -1,0 +1,25 @@
+\section{Limits}
+\subsection{Precise Definition of a Limit}
+\begin{defn}[Limit of a function]
+	Let $f(x)$ be a function defined on an open interval around $x_0$. We say that the limit of $f(x)$ as $x$ approaches $x_0$ is $L$, i.e.
+	$\lim _{ x \to x_{0} }{f(x) } = L,$	if for every $\varepsilon > 0 $ there exists $\delta >0$ such that for all $x$
+	$$0 < \left| x - x_{0} \right |<\delta \textrm{ } \Rightarrow \textrm{ } \left |f(x) - L \right| < \varepsilon.$$
+\end{defn}
+\subsection{Common Limits}
+\begin{align*}
+&\lim_{x \to \infty}{\left(1 + \frac{k}{x}\right)}^{mx} = e^{mk} & &\lim_{x \to \infty}{\left(1 + \frac{1}{x}\right)}^{x} = e & &\lim_{x \to \infty}{\left(1 - \frac{1}{x}\right)}^{x} = \frac{1}{e}\\
+&\lim_{x \to \infty}{\left(\frac{x}{x+k}\right)}^{x} = \frac{1}{e^k} & &\lim_{x \to 0}{\left(1 + x\right)}^{\frac{1}{x}} = e & &\lim_{x \to 0}{\left(\frac{a^x - 1}{x}\right)} = \ln a \\
+&\lim_{x \to 0}{\frac{\sin x}{x}} = 1 & &\lim_{x \to 0}{\frac{\sin{ax}}{bx}} = \frac{a}{b} & &\lim_{x \to 0}{\frac{1 - \cos x}{x}} = 0 \\
+\end{align*}
+
+\subsection{L'H\^{o}pital's Rule}
+\begin{thrm}[L'H\^{o}pital's Rule]
+	Suppose $f$ and $g$ are differentiable functions such that
+\begin{enumerate}
+	\item $g'(x) \neq 0$ on an open interval  $I$ containing $a;$
+	\item $\lim_{x\to a} f(x) = 0$ and $\lim_{x\to a} g(x) = 0,$ or $\lim_{x\to a} f(x) = \pm \infty$ and $\lim_{x\to a} g(x) = \pm \infty;$
+	\item $\lim_{x\to a} \frac{f'(x)}{g'(x)}$ exists.
+\end{enumerate}
+	Then
+	$$\lim_{x\to a} \frac{f(x)}{g(x)} = \lim_{x\to a} \frac{f'(x)}{g'(x)}.$$
+\end{thrm}
